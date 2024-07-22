@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		E2B4DDC92C4E92870059022F /* TaskySampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4DDC82C4E92870059022F /* TaskySampleApp.swift */; };
-		E2B4DDCB2C4E92870059022F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4DDCA2C4E92870059022F /* ContentView.swift */; };
 		E2B4DDCD2C4E92930059022F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B4DDCC2C4E92930059022F /* Assets.xcassets */; };
 		E2B4DDD02C4E92930059022F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B4DDCF2C4E92930059022F /* Preview Assets.xcassets */; };
 		E2B4DDDA2C4E92940059022F /* TaskySampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4DDD92C4E92940059022F /* TaskySampleTests.swift */; };
 		E2B4DDE42C4E92940059022F /* TaskySampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4DDE32C4E92940059022F /* TaskySampleUITests.swift */; };
 		E2B4DDE62C4E92940059022F /* TaskySampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4DDE52C4E92940059022F /* TaskySampleUITestsLaunchTests.swift */; };
+		E2B4DDF32C4E92EA0059022F /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4DDF22C4E92EA0059022F /* TasksView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		E2B4DDC52C4E92870059022F /* TaskySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B4DDC82C4E92870059022F /* TaskySampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskySampleApp.swift; sourceTree = "<group>"; };
-		E2B4DDCA2C4E92870059022F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E2B4DDCC2C4E92930059022F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2B4DDCF2C4E92930059022F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E2B4DDD52C4E92940059022F /* TaskySampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskySampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +43,7 @@
 		E2B4DDDF2C4E92940059022F /* TaskySampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskySampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B4DDE32C4E92940059022F /* TaskySampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskySampleUITests.swift; sourceTree = "<group>"; };
 		E2B4DDE52C4E92940059022F /* TaskySampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskySampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2B4DDF22C4E92EA0059022F /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				E2B4DDC82C4E92870059022F /* TaskySampleApp.swift */,
-				E2B4DDCA2C4E92870059022F /* ContentView.swift */,
+				E2B4DDF22C4E92EA0059022F /* TasksView.swift */,
 				E2B4DDCC2C4E92930059022F /* Assets.xcassets */,
 				E2B4DDCE2C4E92930059022F /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2B4DDCB2C4E92870059022F /* ContentView.swift in Sources */,
+				E2B4DDF32C4E92EA0059022F /* TasksView.swift in Sources */,
 				E2B4DDC92C4E92870059022F /* TaskySampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

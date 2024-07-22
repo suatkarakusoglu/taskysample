@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct TaskySampleApp: App {
+    let tasksViewModel = TasksViewModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TasksView(viewModel: tasksViewModel)
         }
     }
 }
